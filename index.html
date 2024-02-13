@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even listener in Javascript.</title>
+    <style>
+        body{
+            background-color: rgb(41, 40, 40);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>This is heading </h1>
+
+    <h3>Some Button</h3>
+    <!-- 1st system of calling function -->
+    <!-- avoid this system -->
+    <button onclick="console.log(23)">Avoid this function call</button>
+    
+    <button onclick="defaultBg()">Default Background</button>
+    <!-- 2nd system of calling function -->
+    <button onclick="makeGreen()">Make Green</button>
+
+    <!-- 3rd system of calling function -->
+    <button id="makeRed">Make Red</button>
+
+    <script src="./app.js"></script>
+</body>
+</html>
